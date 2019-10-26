@@ -19,11 +19,24 @@
 
 # 1. CLASSIFICAÇÃO BINÁRIA: Identificador de gênero de voz
 
+## Abordagem via Regressão Logística
+
 ### Dataset utilizado
 - 19 atributos acústicos extraídos de trechos gravados de voz,
 considerando a faixa de frequências de 0 a 280 Hz. A última coluna corresponde ao rótulo associado a cada padrão, sendo igual a ‘1’ para o gênero masculino, e ‘0’ para o gênero feminino. Dados retirados de: [MLData.io](https://www.mldata.io/dataset-details/gender_voice/)
 
 # 2. CLASSIFICAÇÃO MULTICLASSE: Identificador de status de usuário de smartphone
+
+## Abordagem via Regressão Logística com Softmax
+
+### Dataset utilizado
+- tributos nos domínios do tempo e da
+frequência extraídos de sinais de acelerômetro e giroscópio de um smartphone. Os
+rótulos correspondentes aos dados indicam qual a atividade realizada por um voluntário humano durante a aquisição dos sinais: 0 – caminhada; 1 – subindo escadas; 2 – descendo escadas; 3 – sentado; 4 – em pé; 5 – deitado.
+
+# 3. CLASSIFICAÇÃO MULTICLASSE: Identificador de status de usuário de smartphone
+
+## Abordagem via K-Nearstest Neighbors
 
 ### Dataset utilizado
 - tributos nos domínios do tempo e da
